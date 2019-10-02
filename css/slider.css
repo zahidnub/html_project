@@ -1,0 +1,53 @@
+/* *{
+    margin: 0;padding: 0;position: relative;
+} */
+div.container{
+    width: 960px;
+    height: 400px;
+}
+div.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:purple;
+}
+.slider{
+    height: 300px;width: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+.details{
+    background: black;color: white;
+    z-index: 10;margin-top: -55px;
+    opacity: 0.5;
+}
+.pager{
+    position: absolute;z-index: 10;
+    bottom: 100px;left: 250px;
+}
+.pager a{
+    color: transparent;
+    border: 1px solid white;font-size: 0;
+    margin: 5px;padding: 5px;border-radius: 10px;
+}
+.pager a.activeSlide{
+    background: yellow;
+}
+footer{
+    position: absolute;
+top:600px;
+    height:50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    width: 960px;
+  
+}
+footer a{
+    text-decoration: none;
+    color:goldenrod;
+}
+footer .about a:active{
+    color: yellowgreen;
+}

@@ -1,0 +1,119 @@
+
+.container{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    height: 60px;
+}
+.logo{
+float: left;
+width: 300px;
+}
+.logo img{
+    height:40px;
+    width:60px;
+}
+nav{
+float: left;
+width:660px;
+}
+
+nav ul{
+margin-left: 300px;
+list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+  }
+nav ul li a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:orange;
+}
+.active{
+    background-color:pink;
+}
+div.title_image img{
+    height:300px;
+    width:960px;
+}
+
+/* title image markup for other pages */
+div.title_image_other img{
+    height:150px;
+    width:960px;
+}
+section{
+    height: 400px;
+    
+}
+section div.section_heading{
+    height: 50px;
+}
+section div.section_heading h2{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+line-height: 30px;
+color: black;
+text-transform: uppercase;
+}
+section div.section_content{
+width: 300px;
+height: 300px;
+border: 1px solid gray;
+float: left;
+margin-left: 5px;
+margin-right: 10px;
+text-align: center;
+}
+section div.section_content img{
+width: 300px;
+height: 130px;
+}
+section div.section_content h3{
+ color: orange;
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: uppercase;
+ font-size: 18px;
+ line-height: 18px;
+}
+section div.section_content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: justify;
+    padding: 10px 20px;
+}
+section div.section_content button{
+    background: orange;
+    width: 130px;
+    height: 40px;
+    color:white;
+    font-size: 25;
+    text-transform: uppercase;
+    font-weight:600;
+    border: none;
+    
+}
+footer{
+    height:50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:goldenrod;
+}
+footer a:active{
+    color: yellowgreen;
+}

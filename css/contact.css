@@ -1,0 +1,43 @@
+section{
+    height: 500px;
+}
+section h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:brown;
+}
+.wrapper{
+    width:650px;
+    margin:15px auto;
+    padding:10px;
+    background:whitesmoke;
+
+}
+input,textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 15px 20px;
+    display:block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+footer{
+    position: absolute;
+top:900px;
+    height:50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    width: 960px;
+  
+}
+footer a{
+    text-decoration: none;
+    color:goldenrod;
+}
+footer .about a:active{
+    color: yellowgreen;
+}
